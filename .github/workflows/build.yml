@@ -1,0 +1,21 @@
+name: build
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  golang:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Build
+        run: ci/build.sh
+
+      - name: Latest image
+        env:
+          DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
+          DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
+        run: ci/docker-push.sh latest
