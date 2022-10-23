@@ -41,8 +41,8 @@
       "url": "https://aerokube.com/"
     },
     {
-      "name": "Browsers (англ.)",
-      "url": "https://browsers.aerokube.com/"
+      "name": "Moon Cloud (англ.)",
+      "url": "https://aerokube.com/moon-cloud/"
     }
   ],
   "docs": [
@@ -53,12 +53,12 @@
     },
     {
       "title": "Инструкция по установке",
-      "description": "Подробное руководство по установке Moon",
+      "description": "Подробное руководство по установке Moon 1.x",
       "url": "/docs/setup.pdf"
     },
     {
       "title": "Общее руководство",
-      "description": "Руководство по эксплуатации и использованию Moon",
+      "description": "Руководство по эксплуатации и использованию Moon 1.x",
       "url": "/docs/main.pdf"
     },
     {
