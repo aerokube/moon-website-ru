@@ -6,7 +6,7 @@ on:
       - master
 
 jobs:
-  golang:
+  website:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
