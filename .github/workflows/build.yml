@@ -18,6 +18,9 @@ jobs:
       - name: Build
         run: ci/build.sh
 
+      - name: Docs
+        run: ci/docs.sh latest
+
       - name: Latest image
         env:
           DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
