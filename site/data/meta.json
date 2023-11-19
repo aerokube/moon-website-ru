@@ -33,9 +33,17 @@
     {
       "name": "Контакты",
       "url": "#contact"
+    },
+    {
+      "name": "Boot",
+      "url": "/boot/"
     }
   ],
   "verticals": [
+    {
+      "name": "Boot",
+      "url": "https://aerokube.ru/boot/"
+    },
     {
       "name": "Aerokube (англ.)",
       "url": "https://aerokube.com/"
