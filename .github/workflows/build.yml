@@ -16,9 +16,15 @@ jobs:
           node-version: 14
 
       - name: Build
-        run: ci/build.sh
+        run: ci/build.sh latest
 
       - name: Docs
+        env:
+          S3_ENDPOINT: ${{ secrets.YC_S3_ENDPOINT }}
+          S3_BUCKET_NAME: ${{ secrets.YC_S3_BUCKET_NAME }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.YC_ACCESS_KEY }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.YC_SECRET_KEY }}
+          AWS_DEFAULT_REGION: ${{ secrets.YC_REGION }}
         run: ci/docs.sh latest
 
       - name: Latest image

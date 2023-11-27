@@ -1,4 +1,10 @@
 #!/bin/bash
 set -x
+TAG=$1
 npm install
-npm run build
+if [ "$TAG" == "latest" ]; then
+  npm run build-testing
+else
+  npm run build
+fi
+
