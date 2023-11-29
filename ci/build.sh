@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 set -x
 TAG=$1
 npm install
