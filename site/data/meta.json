@@ -57,22 +57,27 @@
     {
       "title": "Описание жизненного цикла",
       "description": "Основные этапы жизненного цикла Moon",
-      "url": "docs/lifecycle.pdf"
+      "url": "latest/lifecycle.pdf"
     },
     {
       "title": "Инструкция по установке",
-      "description": "Подробное руководство по установке Moon 1.x",
-      "url": "docs/setup.pdf"
+      "description": "Подробное руководство по установке",
+      "url": "latest/setup.pdf"
     },
     {
       "title": "Общее руководство",
-      "description": "Руководство по эксплуатации и использованию Moon 1.x",
-      "url": "docs/main.pdf"
+      "description": "Руководство по эксплуатации и использованию",
+      "url": "latest/main.pdf"
     },
     {
       "title": "Лицензионное соглашение",
       "description": "Типовое лицензионное соглашение на Moon",
-      "url": "docs/license-agreement.pdf"
+      "url": "latest/license-agreement.pdf"
+    },
+    {
+      "title": "Полная документация",
+      "description": "Полная документация по продукту в формате HTML",
+      "url": "latest/"
     }
   ]
 }
